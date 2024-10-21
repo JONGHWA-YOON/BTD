@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Enemy">
+      <UniqueIdentifier>{056be700-9c6b-4956-90cf-6f52682f4da6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BungEoPpang">
+      <UniqueIdentifier>{63888c81-81ec-4768-a5a2-6e1d75aa58ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{34ad207e-6d27-45e3-a5b7-0fef8acb3acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grahpic">
+      <UniqueIdentifier>{8f6ad2e7-2a6f-4237-b390-e88f60462375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{b1ba760e-7a69-41f2-85c6-ddeda9d7eda1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command">
+      <UniqueIdentifier>{26708c5c-6dc8-4f6e-b597-ddf9c7e54341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File I/O">
+      <UniqueIdentifier>{3d0b8525-2df6-4d0e-b44a-93e42292056d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.c">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.c">
+      <Filter>BungEoPpang</Filter>
+    </ClCompile>
+    <ClCompile Include="BungEoPpang.c">
+      <Filter>BungEoPpang</Filter>
+    </ClCompile>
+    <ClCompile Include="DeltaTime.c">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame.c">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSystem.c">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="GDI.c">
+      <Filter>Grahpic</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.c">
+      <Filter>Grahpic</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="KonamiCommand.c">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="UpgradeCommand.c">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO.c">
+      <Filter>File I/O</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Enemy.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="BungEoPpang.h">
+      <Filter>BungEoPpang</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>BungEoPpang</Filter>
+    </ClInclude>
+    <ClInclude Include="DeltaTime.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSystem.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="GDI.h">
+      <Filter>Grahpic</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Grahpic</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="KonamiCommand.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="UpgradeCommand.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO.h">
+      <Filter>File I/O</Filter>
+    </ClInclude>
+    <ClInclude Include="Path.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
